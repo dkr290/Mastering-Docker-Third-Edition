@@ -3,7 +3,7 @@ LABEL maintainer='Danail Srudzhiyski danail.surudzhiyski@3cpayment.com'
 LABEL description='This example dockerfile installs nginx'
  
 
-RUN apt-get update && apt-get -y upgrade \
+RUN apt-get update && apt-get -y upgrade &&\
     apt-get -y install nginx-full && \
     apt-get -y clean  && \
     mkdir -p /tmp/nginx/
