@@ -1,5 +1,5 @@
 FROM  ubuntu:18.04
-LABEL maintainer='Danail Srudzhiyski danail.surudzhiyski@somedomain.com'
+LABEL maintainer='Danail Srudzhiyski danail.surudzhiyski@somedomain.org'
 LABEL description='This example dockerfile installs nginx'
  
 
